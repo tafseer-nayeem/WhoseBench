@@ -1,0 +1,10 @@
+setting_id,setting_label,min_count,min_population,valid_benchmarks,total_countries,mean_pearson_r,mean_spearman_rho,mean_weighted_pearson_r,mean_ols_r2
+all_countries,All countries,1,,5,574,0.646836,0.670986,0.678927,0.435246
+pop_ge_500k,Population >= 500k,1,500000,5,503,0.719974,0.732611,0.762259,0.529949
+pop_ge_1m,Population >= 1M,1,1000000,5,477,0.780338,0.778400,0.864023,0.614009
+pop_ge_2m,Population >= 2M,1,2000000,5,457,0.778154,0.779436,0.862051,0.610588
+min3_all,Mentions >= 3,3,,5,350,0.610934,0.613153,0.661572,0.387301
+min3_pop_ge_1m,Mentions >= 3 + population >= 1M,3,1000000,5,309,0.801620,0.702591,0.868819,0.643767
+min5_all,Mentions >= 5,5,,5,285,0.557505,0.579990,0.653808,0.355853
+min5_pop_ge_1m,Mentions >= 5 + population >= 1M,5,1000000,5,259,0.776399,0.632844,0.865840,0.607070
+min10_pop_ge_1m,Mentions >= 10 + population >= 1M,10,1000000,4,169,0.776101,0.700424,0.850154,0.606875

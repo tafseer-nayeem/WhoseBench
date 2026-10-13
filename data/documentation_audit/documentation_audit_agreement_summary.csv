@@ -1,0 +1,8 @@
+criterion_id,criterion,n_items,exact_agreement_pct,cohen_kappa,disagreements
+source_user_context,Source-user context,16,100.0,--,0
+target_user_context,Target/eval. context,16,100.0,--,0
+annotator_visibility,Annotator visibility,16,100.0,1.000,0
+locale_assumptions,Locale assumptions,16,100.0,1.000,0
+evaluation_normalization,Evaluation normalization,16,100.0,1.000,0
+geographic_metadata,Geographic metadata,16,93.8,0.881,1
+overall_micro,Overall (micro),96,99.0,0.984,1

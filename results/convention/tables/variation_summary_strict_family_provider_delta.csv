@@ -1,0 +1,9 @@
+benchmark_family,total_items,flagged_items,flagged_pct,american_only_items,other_only_items,mixed_items,american_match_count,other_match_count,american_match_pct,other_match_pct
+AGIEval,82,15,18.29,10,2,3,21,6,77.78,22.22
+BoolQ,12697,5704,44.92,3634,1194,876,7477,3137,70.44,29.56
+HumanEval,164,12,7.32,10,2,0,10,2,83.33,16.67
+IFEval,541,55,10.17,42,12,1,50,13,79.37,20.63
+MBPP,300,12,4.00,11,1,0,11,1,91.67,8.33
+MMLU-Pro,12102,4575,37.80,2946,984,645,5349,2137,71.45,28.55
+MedQA,2545,1676,65.85,545,115,1016,2454,1478,62.41,37.59
+TriviaQA,35154,3487,9.92,1358,1621,508,2133,2459,46.45,53.55

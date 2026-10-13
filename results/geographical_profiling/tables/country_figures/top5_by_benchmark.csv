@@ -1,0 +1,26 @@
+benchmark_name,rank,country_alpha2,country_name,share_resolved_pct
+DataComp1B,1,US,United States,13.5475
+DataComp1B,2,GB,United Kingdom,7.8212
+DataComp1B,3,FR,France,5.4004
+DataComp1B,4,CN,China,5.3538
+DataComp1B,5,IT,Italy,4.4693
+WIT English,1,US,United States,14.5879
+WIT English,2,FR,France,13.7269
+WIT English,3,GB,United Kingdom,6.2239
+WIT English,4,JP,Japan,5.3752
+WIT English,5,DE,Germany,4.1820
+RedCaps,1,US,United States,21.1765
+RedCaps,2,AU,Australia,9.4118
+RedCaps,3,GB,United Kingdom,7.0588
+RedCaps,4,FR,France,5.8824
+RedCaps,5,IS,Iceland,5.8824
+CC12M,1,IS,Iceland,10.2395
+CC12M,2,US,United States,9.9917
+CC12M,3,CN,China,7.6796
+CC12M,4,IN,India,7.5970
+CC12M,5,GB,United Kingdom,5.8629
+COYO-700M,1,US,United States,16.2998
+COYO-700M,2,GB,United Kingdom,9.1195
+COYO-700M,3,FR,France,6.4465
+COYO-700M,4,IN,India,6.1321
+COYO-700M,5,CN,China,5.2935

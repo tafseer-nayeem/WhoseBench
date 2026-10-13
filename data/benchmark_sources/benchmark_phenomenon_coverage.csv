@@ -1,0 +1,7 @@
+benchmark_family,benchmark_task,date_format,time_format,relative_time_expressions,measurement_units,currency,english_variants,cross_lingual,best_use_for_paper,downloaded_local_path
+BIG-bench,date_understanding,high,medium,high,low,low,low,no,"Audit gold rigidity around MM/DD/YYYY and date-normalization assumptions","<local-cache>/datasets/bigbench/date_understanding"
+BIG-bench,temporal_sequences,low,high,medium,low,low,low,no,"Audit 12-hour clock defaults and am/pm-only time ranges","<local-cache>/datasets/bigbench/temporal_sequences"
+GSM8K,grade_school_math,medium,medium,medium,high,high,medium,no,"Audit units, money, everyday wording, and possible AmE-default natural-language gold data","<local-cache>/datasets/gsm8k"
+SVAMP,svamp,medium,low,low,high,medium,medium,no,"Audit whether small wording changes surface hidden locale and unit assumptions","<local-cache>/datasets/svamp"
+TIMEBENCH,timebench_full,high,high,high,medium,low,low,no,"Main temporal benchmark for date arithmetic, time expressions, and time-unit conversion","<local-cache>/datasets/timebench/full"
+MGSM,mgsm,medium,low,low,high,medium,low,yes,"Cross-lingual extension to test whether unit and wording defaults survive beyond English","<local-cache>/datasets/mgsm"

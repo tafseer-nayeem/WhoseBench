@@ -1,0 +1,55 @@
+scope,grouping,group,n_variants,original_score,valid_variant_score,score_delta,score_delta_ci_low,score_delta_ci_high,false_rejection_original,valid_variant_rejection
+standard_exact_match,ALL,ALL,1726,1.000000,0.002317,-0.997683,-0.999425,-0.995338,0.000000,0.997683
+standard_exact_match,benchmark,ARC-Challenge,3,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark,ARC-Easy,14,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark,BBH-date-understanding,124,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark,BBH-temporal-sequences,250,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark,DROP,23,1.000000,0.173913,-0.826087,-0.961538,-0.588235,0.000000,0.826087
+standard_exact_match,benchmark,HellaSwag,715,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark,MMLU,45,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark,MMLU-Pro,502,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark,OpenBookQA,13,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark,TruthfulQA,37,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,perturbation_type,numeric_date_unambiguous,124,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,perturbation_type,spelling,1218,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,perturbation_type,time_12h_to_24h,265,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,perturbation_type,unit_spelling,81,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,perturbation_type,written_date,38,1.000000,0.105263,-0.894737,-0.976190,-0.777778,0.000000,0.894737
+standard_exact_match,benchmark_x_perturbation_type,ARC-Challenge / spelling,3,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark_x_perturbation_type,ARC-Easy / spelling,12,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark_x_perturbation_type,ARC-Easy / unit_spelling,2,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark_x_perturbation_type,BBH-date-understanding / numeric_date_unambiguous,124,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark_x_perturbation_type,BBH-temporal-sequences / time_12h_to_24h,250,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark_x_perturbation_type,DROP / spelling,9,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark_x_perturbation_type,DROP / unit_spelling,3,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark_x_perturbation_type,DROP / written_date,11,1.000000,0.363636,-0.636364,-0.923077,-0.142857,0.000000,0.636364
+standard_exact_match,benchmark_x_perturbation_type,HellaSwag / spelling,701,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark_x_perturbation_type,HellaSwag / time_12h_to_24h,5,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark_x_perturbation_type,HellaSwag / unit_spelling,7,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark_x_perturbation_type,HellaSwag / written_date,2,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark_x_perturbation_type,MMLU / spelling,41,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark_x_perturbation_type,MMLU / unit_spelling,1,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark_x_perturbation_type,MMLU / written_date,3,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark_x_perturbation_type,MMLU-Pro / spelling,409,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark_x_perturbation_type,MMLU-Pro / time_12h_to_24h,6,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark_x_perturbation_type,MMLU-Pro / unit_spelling,67,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark_x_perturbation_type,MMLU-Pro / written_date,20,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark_x_perturbation_type,OpenBookQA / spelling,11,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark_x_perturbation_type,OpenBookQA / time_12h_to_24h,1,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark_x_perturbation_type,OpenBookQA / unit_spelling,1,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark_x_perturbation_type,TruthfulQA / spelling,32,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark_x_perturbation_type,TruthfulQA / time_12h_to_24h,3,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+standard_exact_match,benchmark_x_perturbation_type,TruthfulQA / written_date,2,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+applicable_answer_text_scorer,ALL,ALL,60,1.000000,0.183333,-0.816667,-0.946429,-0.673077,0.000000,0.816667
+applicable_answer_text_scorer,benchmark,DROP,23,1.000000,0.478261,-0.521739,-0.812500,-0.217391,0.000000,0.521739
+applicable_answer_text_scorer,benchmark,TruthfulQA,37,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+applicable_answer_text_scorer,perturbation_type,spelling,41,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+applicable_answer_text_scorer,perturbation_type,time_12h_to_24h,3,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+applicable_answer_text_scorer,perturbation_type,unit_spelling,3,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+applicable_answer_text_scorer,perturbation_type,written_date,13,1.000000,0.846154,-0.153846,-0.444444,0.000000,0.000000,0.153846
+applicable_answer_text_scorer,benchmark_x_perturbation_type,DROP / spelling,9,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+applicable_answer_text_scorer,benchmark_x_perturbation_type,DROP / unit_spelling,3,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+applicable_answer_text_scorer,benchmark_x_perturbation_type,DROP / written_date,11,1.000000,1.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+applicable_answer_text_scorer,benchmark_x_perturbation_type,TruthfulQA / spelling,32,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+applicable_answer_text_scorer,benchmark_x_perturbation_type,TruthfulQA / time_12h_to_24h,3,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000
+applicable_answer_text_scorer,benchmark_x_perturbation_type,TruthfulQA / written_date,2,1.000000,0.000000,-1.000000,-1.000000,-1.000000,0.000000,1.000000

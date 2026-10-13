@@ -1,0 +1,51 @@
+benchmark_name,country_alpha2,country_name,share_resolved_pct,average_share_pct
+DataComp1B,BD,Bangladesh,0.1862,0.3543
+WIT English,BD,Bangladesh,0.2214,0.3543
+RedCaps,BD,Bangladesh,1.1765,0.3543
+CC12M,BD,Bangladesh,0.0826,0.3543
+COYO-700M,BD,Bangladesh,0.1048,0.3543
+DataComp1B,CR,Costa Rica,0.3724,0.4082
+WIT English,CR,Costa Rica,0.1476,0.4082
+RedCaps,CR,Costa Rica,1.1765,0.4082
+CC12M,CR,Costa Rica,0.0826,0.4082
+COYO-700M,CR,Costa Rica,0.2621,0.4082
+DataComp1B,MA,Morocco,0.3724,0.4513
+WIT English,MA,Morocco,0.1230,0.4513
+RedCaps,MA,Morocco,1.1765,0.4513
+CC12M,MA,Morocco,0.1652,0.4513
+COYO-700M,MA,Morocco,0.4193,0.4513
+DataComp1B,DK,Denmark,0.3259,0.5501
+WIT English,DK,Denmark,0.8733,0.5501
+RedCaps,DK,Denmark,1.1765,0.5501
+CC12M,DK,Denmark,0.1652,0.5501
+COYO-700M,DK,Denmark,0.2096,0.5501
+DataComp1B,FI,Finland,0.3259,0.5546
+WIT English,FI,Finland,0.8733,0.5546
+RedCaps,FI,Finland,1.1765,0.5546
+CC12M,FI,Finland,0.0826,0.5546
+COYO-700M,FI,Finland,0.3145,0.5546
+DataComp1B,SC,Seychelles,0.4655,0.5577
+WIT English,SC,Seychelles,0.3444,0.5577
+RedCaps,SC,Seychelles,1.1765,0.5577
+CC12M,SC,Seychelles,0.3303,0.5577
+COYO-700M,SC,Seychelles,0.4717,0.5577
+DataComp1B,AT,Austria,0.2793,0.6471
+WIT English,AT,Austria,1.2177,0.6471
+RedCaps,AT,Austria,1.1765,0.6471
+CC12M,AT,Austria,0.2477,0.6471
+COYO-700M,AT,Austria,0.3145,0.6471
+DataComp1B,NO,Norway,0.4190,0.6703
+WIT English,NO,Norway,1.1193,0.6703
+RedCaps,NO,Norway,1.1765,0.6703
+CC12M,NO,Norway,0.1652,0.6703
+COYO-700M,NO,Norway,0.4717,0.6703
+DataComp1B,KR,"Korea, Republic of",0.8845,0.7121
+WIT English,KR,"Korea, Republic of",0.4797,0.7121
+RedCaps,KR,"Korea, Republic of",1.1765,0.7121
+CC12M,KR,"Korea, Republic of",0.4955,0.7121
+COYO-700M,KR,"Korea, Republic of",0.5241,0.7121
+DataComp1B,NZ,New Zealand,1.0242,0.9608
+WIT English,NZ,New Zealand,0.8118,0.9608
+RedCaps,NZ,New Zealand,1.1765,0.9608
+CC12M,NZ,New Zealand,0.7432,0.9608
+COYO-700M,NZ,New Zealand,1.0482,0.9608

@@ -1,0 +1,130 @@
+[
+  {
+    "_id": 1,
+    "sentence": "We need to find a public toilet soon.",
+    "target": "public toilet",
+    "target_pos_start": 6,
+    "target_pos_end": 7,
+    "ground_truth": "restroom"
+  },
+  {
+    "_id": 2,
+    "sentence": "Let's get the pram and take a walk with Jennifer.",
+    "target": "pram",
+    "target_pos_start": 4,
+    "target_pos_end": 4,
+    "ground_truth": "baby carriage"
+  },
+  {
+    "_id": 3,
+    "sentence": "I'm afraid I had a puncture and had to get it fixed.",
+    "target": "puncture",
+    "target_pos_start": 6,
+    "target_pos_end": 6,
+    "ground_truth": "blowout"
+  },
+  {
+    "_id": 4,
+    "sentence": "Could you bring in that tin of tuna over there?",
+    "target": "tin",
+    "target_pos_start": 6,
+    "target_pos_end": 6,
+    "ground_truth": "can"
+  },
+  {
+    "_id": 5,
+    "sentence": "He puts his trousers on like any other person.",
+    "target": "trousers",
+    "target_pos_start": 4,
+    "target_pos_end": 4,
+    "ground_truth": "pants"
+  },
+  {
+    "_id": 6,
+    "sentence": "She's very mean with her money. Don't ask her for any help.",
+    "target": "mean",
+    "target_pos_start": 3,
+    "target_pos_end": 3,
+    "ground_truth": "stingy"
+  },
+  {
+    "_id": 7,
+    "sentence": "I generally don't wear a suit with a waistcoat.",
+    "target": "waistcoat",
+    "target_pos_start": 9,
+    "target_pos_end": 9,
+    "ground_truth": "vest"
+  },
+  {
+    "_id": 8,
+    "sentence": "We should ask a constable for help.",
+    "target": "constable",
+    "target_pos_start": 5,
+    "target_pos_end": 5,
+    "ground_truth": "patrolman"
+  },
+  {
+    "_id": 9,
+    "sentence": "Let's go to the off-license and get some whiskey.",
+    "target": "off-license",
+    "target_pos_start": 5,
+    "target_pos_end": 5,
+    "ground_truth": "liquor store"
+  },
+  {
+    "_id": 10,
+    "sentence": "Get in queue and I'll get us something to eat.",
+    "target": "queue",
+    "target_pos_start": 3,
+    "target_pos_end": 3,
+    "ground_truth": "line"
+  },
+  {
+    "_id": 11,
+    "sentence": "Grab a tea towel and clean that up.",
+    "target": "tea towel",
+    "target_pos_start": 3,
+    "target_pos_end": 4,
+    "ground_truth": "dish towel"
+  },
+  {
+    "_id": 12,
+    "sentence": "Look at the schedule and see when the train leaves.",
+    "target": "schedule",
+    "target_pos_start": 4,
+    "target_pos_end": 4,
+    "ground_truth": "time table"
+  },
+  {
+    "_id": 13,
+    "sentence": "The car has a dent in the wing.",
+    "target": "wing",
+    "target_pos_start": 8,
+    "target_pos_end": 8,
+    "ground_truth": "fender"
+  },
+  {
+    "_id": 14,
+    "sentence": "Choose a sweater from the wardrobe and let's get going.",
+    "target": "wardrobe",
+    "target_pos_start": 6,
+    "target_pos_end": 6,
+    "ground_truth": "closet"
+  },
+  {
+    "_id": 15,
+    "sentence": "The lights have gone out, and we'll need a torch.",
+    "target": "torch",
+    "target_pos_start": 10,
+    "target_pos_end": 10,
+    "ground_truth": "flashlight"
+  },
+  {
+    "_id": 16,
+    "sentence": "I need to take my mobile to get it fixed.",
+    "target": "mobile",
+    "target_pos_start": 6,
+    "target_pos_end": 6,
+    "ground_truth": "cell phone"
+  }
+]

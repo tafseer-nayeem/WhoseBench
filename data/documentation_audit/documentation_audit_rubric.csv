@@ -1,0 +1,7 @@
+criterion_id,criterion,score_0,score_1,score_2,description
+source_user_context,Source-user context,Absent,Mentioned,Operationalized,"Data creators, source population, platform, institution, or content origin."
+target_user_context,Target-user or evaluation context,Absent,Mentioned,Operationalized,"Intended users, deployment audience, task setting, or evaluation audience."
+annotator_visibility,Annotator visibility,Absent,Mentioned,Operationalized,"Annotator demographics, expertise, locale, recruitment, compensation, or an explicit statement that no human annotation was used."
+locale_assumptions,Locale assumptions,Absent,Mentioned,Operationalized,"Spelling, date, time, unit, currency, numeric-format, or language-variety assumptions."
+evaluation_normalization,Evaluation normalization,Absent,Mentioned,Operationalized,"Valid alternative answers, formatting conventions, or locale-specific equivalents."
+geographic_metadata,Geographic metadata,Absent,Mentioned,Operationalized,"Country, region, URL, domain, top-level domain, language tag, or source-location metadata."

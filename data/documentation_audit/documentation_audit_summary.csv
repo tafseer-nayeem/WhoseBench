@@ -1,0 +1,7 @@
+criterion_id,criterion,mean_score,score_1_or_2_pct,score_2_pct
+source_user_context,Source-user context,2.00,100.0,100.0
+target_user_context,Target-user or evaluation context,1.00,100.0,0.0
+annotator_visibility,Annotator visibility,0.56,56.2,0.0
+locale_assumptions,Locale assumptions,0.31,25.0,6.2
+evaluation_normalization,Evaluation normalization,1.44,75.0,68.8
+geographic_metadata,Geographic metadata,0.69,37.5,31.2

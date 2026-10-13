@@ -1,0 +1,26 @@
+benchmark_name,analysis,x_variable,y_variable,n_countries,pearson_r,spearman_rho
+DataComp1B,GDP current USD,log10_gdp_current_usd,log10_dataset_share_normalized_pct,143,0.7152,0.6957
+DataComp1B,GDP per capita current USD,log10_gdp_per_capita_current_usd,log10_dataset_share_normalized_pct,143,0.3932,0.3988
+DataComp1B,Population,log10_population,log10_dataset_share_normalized_pct,143,0.4574,0.4679
+DataComp1B,GDP current USD vs representation/GDP ratio,log10_gdp_current_usd,log10_representation_to_gdp_ratio,143,-0.7786,-0.7640
+DataComp1B,GDP per capita vs representation/GDP ratio,log10_gdp_per_capita_current_usd,log10_representation_to_gdp_ratio,143,-0.1124,-0.1615
+WIT English,GDP current USD,log10_gdp_current_usd,log10_dataset_share_normalized_pct,183,0.7937,0.7772
+WIT English,GDP per capita current USD,log10_gdp_per_capita_current_usd,log10_dataset_share_normalized_pct,183,0.4447,0.4446
+WIT English,Population,log10_population,log10_dataset_share_normalized_pct,183,0.4988,0.4856
+WIT English,GDP current USD vs representation/GDP ratio,log10_gdp_current_usd,log10_representation_to_gdp_ratio,183,-0.7385,-0.7168
+WIT English,GDP per capita vs representation/GDP ratio,log10_gdp_per_capita_current_usd,log10_representation_to_gdp_ratio,183,-0.0267,-0.0418
+RedCaps,GDP current USD,log10_gdp_current_usd,log10_dataset_share_normalized_pct,34,0.4221,0.5568
+RedCaps,GDP per capita current USD,log10_gdp_per_capita_current_usd,log10_dataset_share_normalized_pct,34,0.2749,0.1917
+RedCaps,Population,log10_population,log10_dataset_share_normalized_pct,34,0.2719,0.3599
+RedCaps,GDP current USD vs representation/GDP ratio,log10_gdp_current_usd,log10_representation_to_gdp_ratio,34,-0.9427,-0.8854
+RedCaps,GDP per capita vs representation/GDP ratio,log10_gdp_per_capita_current_usd,log10_representation_to_gdp_ratio,34,-0.1817,-0.0827
+CC12M,GDP current USD,log10_gdp_current_usd,log10_dataset_share_normalized_pct,87,0.5905,0.6284
+CC12M,GDP per capita current USD,log10_gdp_per_capita_current_usd,log10_dataset_share_normalized_pct,87,0.3583,0.3930
+CC12M,Population,log10_population,log10_dataset_share_normalized_pct,87,0.3684,0.3811
+CC12M,GDP current USD vs representation/GDP ratio,log10_gdp_current_usd,log10_representation_to_gdp_ratio,87,-0.7612,-0.6593
+CC12M,GDP per capita vs representation/GDP ratio,log10_gdp_per_capita_current_usd,log10_representation_to_gdp_ratio,87,-0.1192,-0.1718
+COYO-700M,GDP current USD,log10_gdp_current_usd,log10_dataset_share_normalized_pct,127,0.7126,0.6968
+COYO-700M,GDP per capita current USD,log10_gdp_per_capita_current_usd,log10_dataset_share_normalized_pct,127,0.3166,0.3157
+COYO-700M,Population,log10_population,log10_dataset_share_normalized_pct,127,0.4586,0.4655
+COYO-700M,GDP current USD vs representation/GDP ratio,log10_gdp_current_usd,log10_representation_to_gdp_ratio,127,-0.7043,-0.6774
+COYO-700M,GDP per capita vs representation/GDP ratio,log10_gdp_per_capita_current_usd,log10_representation_to_gdp_ratio,127,-0.0121,-0.0921

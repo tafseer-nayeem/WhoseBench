@@ -1,0 +1,71 @@
+benchmark_key,benchmark_name,rank,country_alpha2,country_name,count,share_resolved_pct
+conceptual_captions_20k,Conceptual Captions,1,CL,Chile,2,0.6601
+conceptual_captions_20k,Conceptual Captions,2,VN,Viet Nam,2,0.6601
+conceptual_captions_20k,Conceptual Captions,3,GR,Greece,3,0.9901
+conceptual_captions_20k,Conceptual Captions,4,MX,Mexico,3,0.9901
+conceptual_captions_20k,Conceptual Captions,5,NL,Netherlands,3,0.9901
+conceptual_captions_20k,Conceptual Captions,6,RE,Réunion,3,0.9901
+conceptual_captions_20k,Conceptual Captions,7,TW,"Taiwan, Province of China",3,0.9901
+conceptual_captions_20k,Conceptual Captions,8,ES,Spain,4,1.3201
+conceptual_captions_20k,Conceptual Captions,9,CA,Canada,5,1.6502
+conceptual_captions_20k,Conceptual Captions,10,CN,China,5,1.6502
+datacomp_1b_20k,DataComp1B,1,BY,Belarus,2,0.0931
+datacomp_1b_20k,DataComp1B,2,BZ,Belize,2,0.0931
+datacomp_1b_20k,DataComp1B,3,BO,"Bolivia, Plurinational State of",2,0.0931
+datacomp_1b_20k,DataComp1B,4,CG,Congo,2,0.0931
+datacomp_1b_20k,DataComp1B,5,DM,Dominica,2,0.0931
+datacomp_1b_20k,DataComp1B,6,GU,Guam,2,0.0931
+datacomp_1b_20k,DataComp1B,7,LB,Lebanon,2,0.0931
+datacomp_1b_20k,DataComp1B,8,MT,Malta,2,0.0931
+datacomp_1b_20k,DataComp1B,9,MQ,Martinique,2,0.0931
+datacomp_1b_20k,DataComp1B,10,MC,Monaco,2,0.0931
+wit_english_50k,WIT English,1,AO,Angola,2,0.0246
+wit_english_50k,WIT English,2,BH,Bahrain,2,0.0246
+wit_english_50k,WIT English,3,BZ,Belize,2,0.0246
+wit_english_50k,WIT English,4,BJ,Benin,2,0.0246
+wit_english_50k,WIT English,5,CM,Cameroon,2,0.0246
+wit_english_50k,WIT English,6,DM,Dominica,2,0.0246
+wit_english_50k,WIT English,7,GY,Guyana,2,0.0246
+wit_english_50k,WIT English,8,JM,Jamaica,2,0.0246
+wit_english_50k,WIT English,9,JO,Jordan,2,0.0246
+wit_english_50k,WIT English,10,LA,Lao People's Democratic Republic,2,0.0246
+redcaps_20k,RedCaps,1,AI,Anguilla,2,2.3529
+redcaps_20k,RedCaps,2,CA,Canada,2,2.3529
+redcaps_20k,RedCaps,3,CN,China,2,2.3529
+redcaps_20k,RedCaps,4,DE,Germany,2,2.3529
+redcaps_20k,RedCaps,5,IN,India,2,2.3529
+redcaps_20k,RedCaps,6,IT,Italy,2,2.3529
+redcaps_20k,RedCaps,7,MV,Maldives,2,2.3529
+redcaps_20k,RedCaps,8,PL,Poland,2,2.3529
+redcaps_20k,RedCaps,9,ID,Indonesia,3,3.5294
+redcaps_20k,RedCaps,10,JP,Japan,4,4.7059
+cc12m_20k,CC12M,1,AF,Afghanistan,2,0.1652
+cc12m_20k,CC12M,2,BS,Bahamas,2,0.1652
+cc12m_20k,CC12M,3,BZ,Belize,2,0.1652
+cc12m_20k,CC12M,4,BN,Brunei Darussalam,2,0.1652
+cc12m_20k,CC12M,5,DK,Denmark,2,0.1652
+cc12m_20k,CC12M,6,FK,Falkland Islands (Malvinas),2,0.1652
+cc12m_20k,CC12M,7,FJ,Fiji,2,0.1652
+cc12m_20k,CC12M,8,GG,Guernsey,2,0.1652
+cc12m_20k,CC12M,9,IR,"Iran, Islamic Republic of",2,0.1652
+cc12m_20k,CC12M,10,JM,Jamaica,2,0.1652
+coyo_700m_20k,COYO-700M,1,AR,Argentina,2,0.1048
+coyo_700m_20k,COYO-700M,2,BD,Bangladesh,2,0.1048
+coyo_700m_20k,COYO-700M,3,BG,Bulgaria,2,0.1048
+coyo_700m_20k,COYO-700M,4,ET,Ethiopia,2,0.1048
+coyo_700m_20k,COYO-700M,5,VA,Holy See (Vatican City State),2,0.1048
+coyo_700m_20k,COYO-700M,6,JM,Jamaica,2,0.1048
+coyo_700m_20k,COYO-700M,7,KW,Kuwait,2,0.1048
+coyo_700m_20k,COYO-700M,8,MD,"Moldova, Republic of",2,0.1048
+coyo_700m_20k,COYO-700M,9,MC,Monaco,2,0.1048
+coyo_700m_20k,COYO-700M,10,NI,Nicaragua,2,0.1048
+wit_multilingual_merged,WIT Multilingual,1,AG,Antigua and Barbuda,2,0.0117
+wit_multilingual_merged,WIT Multilingual,2,CF,Central African Republic,2,0.0117
+wit_multilingual_merged,WIT Multilingual,3,CD,"Congo, The Democratic Republic of the",2,0.0117
+wit_multilingual_merged,WIT Multilingual,4,GF,French Guiana,2,0.0117
+wit_multilingual_merged,WIT Multilingual,5,PF,French Polynesia,2,0.0117
+wit_multilingual_merged,WIT Multilingual,6,GA,Gabon,2,0.0117
+wit_multilingual_merged,WIT Multilingual,7,GM,Gambia,2,0.0117
+wit_multilingual_merged,WIT Multilingual,8,GY,Guyana,2,0.0117
+wit_multilingual_merged,WIT Multilingual,9,KI,Kiribati,2,0.0117
+wit_multilingual_merged,WIT Multilingual,10,KW,Kuwait,2,0.0117

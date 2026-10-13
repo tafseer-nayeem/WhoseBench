@@ -1,0 +1,9 @@
+n_controls,accept_rate,rejection_rate,accept_ci_low,accept_ci_high,scope,group
+3812,0.999738,0.000262,0.999207,1.000000,standard_exact_match,ALL
+1645,1.000000,0.000000,1.000000,1.000000,standard_exact_match,extra_whitespace
+649,1.000000,0.000000,1.000000,1.000000,standard_exact_match,trailing_period
+1518,0.999341,0.000659,0.998017,1.000000,standard_exact_match,uppercase
+169,1.000000,0.000000,1.000000,1.000000,applicable_answer_text_scorer,ALL
+57,1.000000,0.000000,1.000000,1.000000,applicable_answer_text_scorer,extra_whitespace
+56,1.000000,0.000000,1.000000,1.000000,applicable_answer_text_scorer,trailing_period
+56,1.000000,0.000000,1.000000,1.000000,applicable_answer_text_scorer,uppercase

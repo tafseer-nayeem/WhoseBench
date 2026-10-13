@@ -1,0 +1,10 @@
+field,reporting_question,interpretation_note
+source_users,"Who produced the items, and through which population, platform, institution, or collection process?","Distinguish observed source populations from inferences."
+target_users,"Which users or evaluation contexts are the resulting claims intended to cover?","State where generalization is uncertain."
+annotators_and_labels,"Who supplied labels or references, and what is known about expertise, locale, recruitment, compensation, and quality control?","State explicitly when no human annotation was used."
+locale_conventions,"Which spelling, date, time, unit, currency, numeric, or language-variety conventions occur in items and scoring?","Separate inherited source conventions from deliberate design."
+evaluation_normalization,"Which meaning-preserving alternatives does the scoring protocol accept, convert, reject, or leave unspecified?","Describe exact match, labels, automated judges, and valid variants as applicable."
+geographic_metadata,"Which country, region, domain, URL, language, or source-location fields are available or unavailable?","Clarify whether each signal refers to source, creator, content, or hosting."
+known_coverage_gaps,"What user, locale, geography, domain, or annotation-provenance gaps are known?","Treat gaps as limits on claims, not automatically as defects."
+recommended_uses,"Which claims are supported, and which uses or generalizations are not supported?","Keep benchmark score interpretation within the resource's scope."
+audit_and_updates,"Which data, metadata, code, and scoring records allow re-audit, and how will changes be tracked?","Describe what downstream users can inspect and compare over time."

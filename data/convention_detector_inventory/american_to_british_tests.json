@@ -1,0 +1,122 @@
+[
+  {
+    "_id": 1,
+    "sentence": "I'd like to hang the drapes tonight. Do you have time?",
+    "target": "drapes",
+    "target_pos_start": 6,
+    "target_pos_end": 6,
+    "ground_truth": "curtains"
+  },
+  {
+    "_id": 2,
+    "sentence": "We took the elevator to the 10th floor.",
+    "target": "elevator",
+    "target_pos_start": 4,
+    "target_pos_end": 4,
+    "ground_truth": "lift"
+  },
+  {
+    "_id": 3,
+    "sentence": "Would you like to see a movie tonight?",
+    "target": "movie",
+    "target_pos_start": 7,
+    "target_pos_end": 7,
+    "ground_truth": "film"
+  },
+  {
+    "_id": 4,
+    "sentence": "Have you seen Tim's new apartment yet? It's very nice.",
+    "target": "apartment",
+    "target_pos_start": 6,
+    "target_pos_end": 6,
+    "ground_truth": "flat"
+  },
+  {
+    "_id": 5,
+    "sentence": "Run down to the drugstore and buy some aspirin, please.",
+    "target": "drugstore",
+    "target_pos_start": 5,
+    "target_pos_end": 5,
+    "ground_truth": "chemist's"
+  },
+  {
+    "_id": 6,
+    "sentence": "Let's go to the bar and get a drink.",
+    "target": "bar",
+    "target_pos_start": 5,
+    "target_pos_end": 5,
+    "ground_truth": "pub"
+  },
+  {
+    "_id": 7,
+    "sentence": "I'll take the garbage out before I leave tomorrow morning.",
+    "target": "garbage",
+    "target_pos_start": 4,
+    "target_pos_end": 4,
+    "ground_truth": "rubbish"
+  },
+  {
+    "_id": 8,
+    "sentence": "Take the second exit at the traffic circle.",
+    "target": "traffic circle",
+    "target_pos_start": 7,
+    "target_pos_end": 8,
+    "ground_truth": "roundabout"
+  },
+  {
+    "_id": 9,
+    "sentence": "Let's get some potato chips with lunch.",
+    "target": "potato chips",
+    "target_pos_start": 4,
+    "target_pos_end": 5,
+    "ground_truth": "crisps"
+  },
+  {
+    "_id": 10,
+    "sentence": "Could you hand me the flashlight so I can take a look in the closet?",
+    "target": "flashlight",
+    "target_pos_start": 6,
+    "target_pos_end": 6,
+    "ground_truth": "torch"
+  },
+  {
+    "_id": 11,
+    "sentence": "Peter wore a pair of slim-fitting pants to the party.",
+    "target": "pants",
+    "target_pos_start": 7,
+    "target_pos_end": 7,
+    "ground_truth": "trousers"
+  },
+  {
+    "_id": 12,
+    "sentence": "She opened the tap and watered the garden.",
+    "target": "tap",
+    "target_pos_start": 4,
+    "target_pos_end": 4,
+    "ground_truth": "spigot"
+  },
+  {
+    "_id": 13,
+    "sentence": "Have you ever worn a vest with a suit?",
+    "target": "vest",
+    "target_pos_start": 6,
+    "target_pos_end": 6,
+    "ground_truth": "waistcoat"
+  },
+  {
+    "_id": 14,
+    "sentence": "I'll pick up the mail on the way home from work.",
+    "target": "mail",
+    "target_pos_start": 5,
+    "target_pos_end": 5,
+    "ground_truth": "post"
+  },
+  {
+    "_id": 15,
+    "sentence": "Could you buy me a pair of pantyhose at the mall?",
+    "target": "pantyhose",
+    "target_pos_start": 8,
+    "target_pos_end": 8,
+    "ground_truth": "tights"
+  }
+]

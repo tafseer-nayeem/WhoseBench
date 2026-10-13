@@ -1,0 +1,141 @@
+selected_set,country_alpha2,country_name,benchmark_key,benchmark_name,share_pct,benchmark_presence,total_sample_count
+top10,US,United States,conceptual_captions_20k,Conceptual Captions,4.2904,7,3397
+top10,US,United States,datacomp_1b_20k,DataComp1B,13.5475,7,3397
+top10,US,United States,wit_english_50k,WIT English,14.5879,7,3397
+top10,US,United States,redcaps_20k,RedCaps,21.1765,7,3397
+top10,US,United States,cc12m_20k,CC12M,9.9917,7,3397
+top10,US,United States,coyo_700m_20k,COYO-700M,16.2998,7,3397
+top10,US,United States,wit_multilingual_merged,WIT Multilingual,8.5165,7,3397
+top10,FR,France,conceptual_captions_20k,Conceptual Captions,4.9505,7,4170
+top10,FR,France,datacomp_1b_20k,DataComp1B,5.4004,7,4170
+top10,FR,France,wit_english_50k,WIT English,13.7269,7,4170
+top10,FR,France,redcaps_20k,RedCaps,5.8824,7,4170
+top10,FR,France,cc12m_20k,CC12M,5.6152,7,4170
+top10,FR,France,coyo_700m_20k,COYO-700M,6.4465,7,4170
+top10,FR,France,wit_multilingual_merged,WIT Multilingual,15.9399,7,4170
+top10,GB,United Kingdom,conceptual_captions_20k,Conceptual Captions,10.2310,7,1432
+top10,GB,United Kingdom,datacomp_1b_20k,DataComp1B,7.8212,7,1432
+top10,GB,United Kingdom,wit_english_50k,WIT English,6.2239,7,1432
+top10,GB,United Kingdom,redcaps_20k,RedCaps,7.0588,7,1432
+top10,GB,United Kingdom,cc12m_20k,CC12M,5.8629,7,1432
+top10,GB,United Kingdom,coyo_700m_20k,COYO-700M,9.1195,7,1432
+top10,GB,United Kingdom,wit_multilingual_merged,WIT Multilingual,2.7823,7,1432
+top10,IS,Iceland,conceptual_captions_20k,Conceptual Captions,25.7426,7,491
+top10,IS,Iceland,datacomp_1b_20k,DataComp1B,3.0261,7,491
+top10,IS,Iceland,wit_english_50k,WIT English,1.3530,7,491
+top10,IS,Iceland,redcaps_20k,RedCaps,5.8824,7,491
+top10,IS,Iceland,cc12m_20k,CC12M,10.2395,7,491
+top10,IS,Iceland,coyo_700m_20k,COYO-700M,2.3585,7,491
+top10,IS,Iceland,wit_multilingual_merged,WIT Multilingual,0.3741,7,491
+top10,JP,Japan,conceptual_captions_20k,Conceptual Captions,1.6502,7,2195
+top10,JP,Japan,datacomp_1b_20k,DataComp1B,4.0503,7,2195
+top10,JP,Japan,wit_english_50k,WIT English,5.3752,7,2195
+top10,JP,Japan,redcaps_20k,RedCaps,4.7059,7,2195
+top10,JP,Japan,cc12m_20k,CC12M,3.6334,7,2195
+top10,JP,Japan,coyo_700m_20k,COYO-700M,3.1447,7,2195
+top10,JP,Japan,wit_multilingual_merged,WIT Multilingual,9.1069,7,2195
+top10,AU,Australia,conceptual_captions_20k,Conceptual Captions,6.2706,7,678
+top10,AU,Australia,datacomp_1b_20k,DataComp1B,3.0726,7,678
+top10,AU,Australia,wit_english_50k,WIT English,3.4440,7,678
+top10,AU,Australia,redcaps_20k,RedCaps,9.4118,7,678
+top10,AU,Australia,cc12m_20k,CC12M,2.3947,7,678
+top10,AU,Australia,coyo_700m_20k,COYO-700M,3.7212,7,678
+top10,AU,Australia,wit_multilingual_merged,WIT Multilingual,1.1983,7,678
+top10,MV,Maldives,conceptual_captions_20k,Conceptual Captions,14.5215,7,230
+top10,MV,Maldives,datacomp_1b_20k,DataComp1B,1.8622,7,230
+top10,MV,Maldives,wit_english_50k,WIT English,0.5043,7,230
+top10,MV,Maldives,redcaps_20k,RedCaps,2.3529,7,230
+top10,MV,Maldives,cc12m_20k,CC12M,5.6152,7,230
+top10,MV,Maldives,coyo_700m_20k,COYO-700M,1.4675,7,230
+top10,MV,Maldives,wit_multilingual_merged,WIT Multilingual,0.0409,7,230
+top10,CN,China,conceptual_captions_20k,Conceptual Captions,1.6502,7,787
+top10,CN,China,datacomp_1b_20k,DataComp1B,5.3538,7,787
+top10,CN,China,wit_english_50k,WIT English,1.8942,7,787
+top10,CN,China,redcaps_20k,RedCaps,2.3529,7,787
+top10,CN,China,cc12m_20k,CC12M,7.6796,7,787
+top10,CN,China,coyo_700m_20k,COYO-700M,5.2935,7,787
+top10,CN,China,wit_multilingual_merged,WIT Multilingual,1.8529,7,787
+top10,IN,India,conceptual_captions_20k,Conceptual Captions,2.6403,7,719
+top10,IN,India,datacomp_1b_20k,DataComp1B,3.1192,7,719
+top10,IN,India,wit_english_50k,WIT English,2.3493,7,719
+top10,IN,India,redcaps_20k,RedCaps,2.3529,7,719
+top10,IN,India,cc12m_20k,CC12M,7.5970,7,719
+top10,IN,India,coyo_700m_20k,COYO-700M,6.1321,7,719
+top10,IN,India,wit_multilingual_merged,WIT Multilingual,1.4145,7,719
+top10,IT,Italy,conceptual_captions_20k,Conceptual Captions,4.2904,7,1004
+top10,IT,Italy,datacomp_1b_20k,DataComp1B,4.4693,7,1004
+top10,IT,Italy,wit_english_50k,WIT English,2.1894,7,1004
+top10,IT,Italy,redcaps_20k,RedCaps,2.3529,7,1004
+top10,IT,Italy,cc12m_20k,CC12M,2.4773,7,1004
+top10,IT,Italy,coyo_700m_20k,COYO-700M,3.5115,7,1004
+top10,IT,Italy,wit_multilingual_merged,WIT Multilingual,3.6123,7,1004
+bottom10,CF,Central African Republic,conceptual_captions_20k,Conceptual Captions,0.0000,1,2
+bottom10,CF,Central African Republic,datacomp_1b_20k,DataComp1B,0.0000,1,2
+bottom10,CF,Central African Republic,wit_english_50k,WIT English,0.0000,1,2
+bottom10,CF,Central African Republic,redcaps_20k,RedCaps,0.0000,1,2
+bottom10,CF,Central African Republic,cc12m_20k,CC12M,0.0000,1,2
+bottom10,CF,Central African Republic,coyo_700m_20k,COYO-700M,0.0000,1,2
+bottom10,CF,Central African Republic,wit_multilingual_merged,WIT Multilingual,0.0117,1,2
+bottom10,CD,"Congo, The Democratic Republic of the",conceptual_captions_20k,Conceptual Captions,0.0000,1,2
+bottom10,CD,"Congo, The Democratic Republic of the",datacomp_1b_20k,DataComp1B,0.0000,1,2
+bottom10,CD,"Congo, The Democratic Republic of the",wit_english_50k,WIT English,0.0000,1,2
+bottom10,CD,"Congo, The Democratic Republic of the",redcaps_20k,RedCaps,0.0000,1,2
+bottom10,CD,"Congo, The Democratic Republic of the",cc12m_20k,CC12M,0.0000,1,2
+bottom10,CD,"Congo, The Democratic Republic of the",coyo_700m_20k,COYO-700M,0.0000,1,2
+bottom10,CD,"Congo, The Democratic Republic of the",wit_multilingual_merged,WIT Multilingual,0.0117,1,2
+bottom10,GA,Gabon,conceptual_captions_20k,Conceptual Captions,0.0000,1,2
+bottom10,GA,Gabon,datacomp_1b_20k,DataComp1B,0.0000,1,2
+bottom10,GA,Gabon,wit_english_50k,WIT English,0.0000,1,2
+bottom10,GA,Gabon,redcaps_20k,RedCaps,0.0000,1,2
+bottom10,GA,Gabon,cc12m_20k,CC12M,0.0000,1,2
+bottom10,GA,Gabon,coyo_700m_20k,COYO-700M,0.0000,1,2
+bottom10,GA,Gabon,wit_multilingual_merged,WIT Multilingual,0.0117,1,2
+bottom10,MH,Marshall Islands,conceptual_captions_20k,Conceptual Captions,0.0000,1,3
+bottom10,MH,Marshall Islands,datacomp_1b_20k,DataComp1B,0.0000,1,3
+bottom10,MH,Marshall Islands,wit_english_50k,WIT English,0.0000,1,3
+bottom10,MH,Marshall Islands,redcaps_20k,RedCaps,0.0000,1,3
+bottom10,MH,Marshall Islands,cc12m_20k,CC12M,0.0000,1,3
+bottom10,MH,Marshall Islands,coyo_700m_20k,COYO-700M,0.0000,1,3
+bottom10,MH,Marshall Islands,wit_multilingual_merged,WIT Multilingual,0.0175,1,3
+bottom10,KN,Saint Kitts and Nevis,conceptual_captions_20k,Conceptual Captions,0.0000,1,4
+bottom10,KN,Saint Kitts and Nevis,datacomp_1b_20k,DataComp1B,0.0000,1,4
+bottom10,KN,Saint Kitts and Nevis,wit_english_50k,WIT English,0.0000,1,4
+bottom10,KN,Saint Kitts and Nevis,redcaps_20k,RedCaps,0.0000,1,4
+bottom10,KN,Saint Kitts and Nevis,cc12m_20k,CC12M,0.0000,1,4
+bottom10,KN,Saint Kitts and Nevis,coyo_700m_20k,COYO-700M,0.0000,1,4
+bottom10,KN,Saint Kitts and Nevis,wit_multilingual_merged,WIT Multilingual,0.0234,1,4
+bottom10,KI,Kiribati,conceptual_captions_20k,Conceptual Captions,0.0000,2,3
+bottom10,KI,Kiribati,datacomp_1b_20k,DataComp1B,0.0000,2,3
+bottom10,KI,Kiribati,wit_english_50k,WIT English,0.0123,2,3
+bottom10,KI,Kiribati,redcaps_20k,RedCaps,0.0000,2,3
+bottom10,KI,Kiribati,cc12m_20k,CC12M,0.0000,2,3
+bottom10,KI,Kiribati,coyo_700m_20k,COYO-700M,0.0000,2,3
+bottom10,KI,Kiribati,wit_multilingual_merged,WIT Multilingual,0.0117,2,3
+bottom10,VC,Saint Vincent and the Grenadines,conceptual_captions_20k,Conceptual Captions,0.0000,2,3
+bottom10,VC,Saint Vincent and the Grenadines,datacomp_1b_20k,DataComp1B,0.0000,2,3
+bottom10,VC,Saint Vincent and the Grenadines,wit_english_50k,WIT English,0.0123,2,3
+bottom10,VC,Saint Vincent and the Grenadines,redcaps_20k,RedCaps,0.0000,2,3
+bottom10,VC,Saint Vincent and the Grenadines,cc12m_20k,CC12M,0.0000,2,3
+bottom10,VC,Saint Vincent and the Grenadines,coyo_700m_20k,COYO-700M,0.0000,2,3
+bottom10,VC,Saint Vincent and the Grenadines,wit_multilingual_merged,WIT Multilingual,0.0117,2,3
+bottom10,PF,French Polynesia,conceptual_captions_20k,Conceptual Captions,0.0000,2,3
+bottom10,PF,French Polynesia,datacomp_1b_20k,DataComp1B,0.0000,2,3
+bottom10,PF,French Polynesia,wit_english_50k,WIT English,0.0123,2,3
+bottom10,PF,French Polynesia,redcaps_20k,RedCaps,0.0000,2,3
+bottom10,PF,French Polynesia,cc12m_20k,CC12M,0.0000,2,3
+bottom10,PF,French Polynesia,coyo_700m_20k,COYO-700M,0.0000,2,3
+bottom10,PF,French Polynesia,wit_multilingual_merged,WIT Multilingual,0.0117,2,3
+bottom10,BF,Burkina Faso,conceptual_captions_20k,Conceptual Captions,0.0000,1,5
+bottom10,BF,Burkina Faso,datacomp_1b_20k,DataComp1B,0.0000,1,5
+bottom10,BF,Burkina Faso,wit_english_50k,WIT English,0.0000,1,5
+bottom10,BF,Burkina Faso,redcaps_20k,RedCaps,0.0000,1,5
+bottom10,BF,Burkina Faso,cc12m_20k,CC12M,0.0000,1,5
+bottom10,BF,Burkina Faso,coyo_700m_20k,COYO-700M,0.0000,1,5
+bottom10,BF,Burkina Faso,wit_multilingual_merged,WIT Multilingual,0.0292,1,5
+bottom10,BL,Saint Barthélemy,conceptual_captions_20k,Conceptual Captions,0.0000,1,5
+bottom10,BL,Saint Barthélemy,datacomp_1b_20k,DataComp1B,0.0000,1,5
+bottom10,BL,Saint Barthélemy,wit_english_50k,WIT English,0.0000,1,5
+bottom10,BL,Saint Barthélemy,redcaps_20k,RedCaps,0.0000,1,5
+bottom10,BL,Saint Barthélemy,cc12m_20k,CC12M,0.0000,1,5
+bottom10,BL,Saint Barthélemy,coyo_700m_20k,COYO-700M,0.0000,1,5
+bottom10,BL,Saint Barthélemy,wit_multilingual_merged,WIT Multilingual,0.0292,1,5

@@ -1,0 +1,14 @@
+babel>=2.14
+datasets>=2.18
+duckdb>=0.10
+geonamescache>=2.0
+huggingface-hub>=0.22
+numpy>=1.24
+pandas>=2.0
+pycountry>=23.12
+pycountry-convert>=0.7
+pypdf>=4.0
+requests>=2.31
+scipy>=1.10
+rouge-score==0.1.2
+sacrebleu==2.6.0

@@ -1,0 +1,24 @@
+benchmark,item_id,convention_type,original_answer,variant_answer,original_em,variant_em,original_f1,variant_f1,eligible,n_gold_annotations
+DROP,febf9177-f7a9-4397-967d-b78168d236a0,written_date,"April 23, 1734",23 April 1734,1.0,1.0,1.0,1.0,True,6
+DROP,66b85717-e254-45d7-808a-9ce2c9308ac6,written_date,April 23,23 April,1.0,1.0,1.0,1.0,True,6
+DROP,24d4bf64-447f-49dd-8341-84ef433259ba,written_date,"August 25, 1734",25 August 1734,1.0,1.0,1.0,1.0,True,5
+DROP,95ef519f-c2a6-42df-a39a-f7b0ff766a6f,written_date,"November 23, 2008",23 November 2008,1.0,1.0,1.0,1.0,True,4
+DROP,1d9fd840-eb77-46b2-9dfc-bf60a5b0ec88,spelling,Thai travelers,Thai travellers,1.0,0.0,1.0,0.67,True,5
+DROP,92e60082-2b86-4834-827a-c22b4489658c,spelling,OFFENSE,OFFENCE,1.0,0.0,1.0,0.0,True,3
+DROP,ef262e4a-18a0-44b1-b4c7-b4dcbfa36b6d,spelling,"67,000 kilometers of roads","67,000 kilometres of roads",0.0,0.0,0.5,0.38,False,3
+DROP,ef262e4a-18a0-44b1-b4c7-b4dcbfa36b6d,unit_spelling,"67,000 kilometers of roads","67,000 kilometres of roads",0.0,0.0,0.5,0.38,False,3
+DROP,ed464f2a-f347-4591-867c-b9c850cac964,spelling,"67,000 kilometers of roads","67,000 kilometres of roads",0.0,0.0,0.17,0.12,False,3
+DROP,ed464f2a-f347-4591-867c-b9c850cac964,unit_spelling,"67,000 kilometers of roads","67,000 kilometres of roads",0.0,0.0,0.17,0.12,False,3
+DROP,ed464f2a-f347-4591-867c-b9c850cac964,spelling,"7,500 kilometers of railways","7,500 kilometres of railways",0.0,0.0,0.17,0.12,False,3
+DROP,ed464f2a-f347-4591-867c-b9c850cac964,unit_spelling,"7,500 kilometers of railways","7,500 kilometres of railways",0.0,0.0,0.17,0.12,False,3
+DROP,ff20ab78-6d2c-4238-919e-34c40b4c9194,written_date,October 10,10 October,1.0,0.0,1.0,1.0,True,3
+DROP,88a9a257-c601-4392-aaa3-3b530a02571c,spelling,Mechanized Infantry Battalions,Mechanised Infantry Battalions,1.0,0.0,1.0,0.67,True,3
+DROP,2f0562fb-04d9-4c3f-8b7e-63745ad812f3,spelling,the Jaguars' defense,the Jaguars' defence,1.0,0.0,1.0,0.5,True,6
+DROP,2f0562fb-04d9-4c3f-8b7e-63745ad812f3,spelling,Jaguars' defense,Jaguars' defence,1.0,0.0,1.0,0.5,True,6
+DROP,a1807e6c-741e-4a74-8600-4b1a960ab619,written_date,"April 23, February 3","23 April, 3 February",1.0,0.0,1.0,1.0,True,3
+DROP,a1807e6c-741e-4a74-8600-4b1a960ab619,written_date,April 23,23 April,0.0,0.0,0.67,0.67,False,3
+DROP,a1807e6c-741e-4a74-8600-4b1a960ab619,written_date,February 3,3 February,0.0,0.0,0.67,0.67,False,3
+DROP,cf62e5b8-4835-4ce8-a312-8953c98de6a8,spelling,"That ""Montana Pinch"" gave the hat the distinctive look we recognize today as the ""Smokey Bear Hat"".","That ""Montana Pinch"" gave the hat the distinctive look we recognise today as the ""Smokey Bear Hat"".",1.0,0.0,1.0,0.92,True,3
+DROP,8e81ea5e-da45-4c49-b72d-bf3b345960b8,written_date,November 18,18 November,0.0,0.0,0.33,0.33,False,3
+DROP,8e81ea5e-da45-4c49-b72d-bf3b345960b8,written_date,"January 12, 2014",12 January 2014,0.0,0.0,0.33,0.33,False,3
+DROP,8e81ea5e-da45-4c49-b72d-bf3b345960b8,written_date,"January 18, 2015",18 January 2015,0.0,0.0,0.33,0.33,False,3

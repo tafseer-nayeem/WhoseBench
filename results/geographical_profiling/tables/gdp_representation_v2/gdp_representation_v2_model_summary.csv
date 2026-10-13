@@ -1,0 +1,8 @@
+setting_id,setting_label,model_id,model_label,x_variables,valid_benchmarks,min_n_countries,mean_ols_r2,mean_weighted_ols_r2
+pop_ge_1m,Population >= 1M,gdp_share,GDP share only,log10_gdp_share_pct,5,30,0.614009,0.747934
+pop_ge_1m,Population >= 1M,population_share,Population share only,log10_population_share_pct,5,30,0.251526,0.374449
+pop_ge_1m,Population >= 1M,gdp_per_capita,GDP per capita only,log10_gdp_per_capita_current_usd,5,30,0.209873,0.254172
+pop_ge_1m,Population >= 1M,gdp_plus_population,GDP share + population share,log10_gdp_share_pct + log10_population_share_pct,5,30,0.617472,0.763266
+pop_ge_1m,Population >= 1M,gdp_plus_gdp_pc,GDP share + GDP per capita,log10_gdp_share_pct + log10_gdp_per_capita_current_usd,5,30,0.617374,0.763336
+pop_ge_1m,Population >= 1M,gdp_plus_internet,GDP share + internet users %,log10_gdp_share_pct + log10_internet_users_pct,5,30,0.629372,0.750646
+pop_ge_1m,Population >= 1M,gdp_plus_tourism,GDP share + tourism arrivals,log10_gdp_share_pct + log10_tourism_arrivals,5,30,0.630262,0.769663

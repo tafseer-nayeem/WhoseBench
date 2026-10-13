@@ -1,0 +1,17 @@
+resource,family,source_user_context,target_user_context,annotator_visibility,locale_assumptions,evaluation_normalization,geographic_metadata
+MMLU,Text QA,2,1,0,0,2,0
+GSM8K,Text QA,2,1,1,0,2,0
+HellaSwag,Text QA,2,1,1,0,2,0
+DROP,Text QA,2,1,1,0,2,0
+WinoGrande,Text QA,2,1,1,0,2,0
+ARC-Challenge,Text QA,2,1,0,0,2,0
+BoolQ,Text QA,2,1,1,0,2,0
+MMLU-Pro,Text QA,2,1,1,0,2,0
+TruthfulQA,Text QA,2,1,1,0,2,0
+MedQA,Text QA,2,1,0,1,2,1
+SVAMP,Text QA,2,1,0,0,2,0
+DataComp1B,Image--text,2,1,0,0,1,2
+WIT English,Image--text,2,1,0,2,0,2
+RedCaps,Image--text,2,1,1,1,0,2
+CC12M,Image--text,2,1,0,0,0,2
+COYO-700M,Image--text,2,1,1,1,0,2

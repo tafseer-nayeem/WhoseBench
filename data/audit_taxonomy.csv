@@ -1,0 +1,8 @@
+dimension,question,operational_signal,analysis
+linguistic_and_locale_conventions,"Whose written, formatting, and measurement conventions are treated as default?","Spelling, date, time, and unit signals in prompts, passages, options, and answers",text_benchmark_audit
+geographic_visibility,"Which countries and regions are visible in image-text resources?","Explicit country, demonym, capital, and city cues in captions or metadata",geographic_audit
+socioeconomic_structure,"Does country visibility track economic or demographic scale?","Country-share association with GDP, population, GDP per capita, Internet usage, and tourism",geographic_audit
+source_user_context,"Whose content produced the resource, and through which source regime?","Documented populations, platforms, institutions, and collection channels",documentation_audit
+target_user_assumptions,"Whom is the evaluation intended to serve or generalize to?","Intended users, deployment or evaluation audience, and stated use limits",documentation_audit
+annotator_visibility,"Whose judgments define labels, references, and quality control?","Annotator expertise, demographics, locale, recruitment, compensation, and procedures",documentation_audit
+evaluation_normalization,"Are user-valid alternatives recognized by evaluation?","Documented scoring rules, accepted variants, and treatment of locale-specific answers",documentation_audit

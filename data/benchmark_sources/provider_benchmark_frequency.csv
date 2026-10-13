@@ -1,0 +1,28 @@
+benchmark,provider_count,providers
+DROP,4,Anthropic; Google DeepMind; Meta; OpenAI
+GSM8K,4,Anthropic; Google DeepMind; Meta; OpenAI
+HellaSwag,4,Anthropic; Google DeepMind; Meta; OpenAI
+HumanEval,4,Anthropic; Google DeepMind; Meta; OpenAI
+MMLU,4,Anthropic; Google DeepMind; Meta; OpenAI
+MATH,3,Google DeepMind; Meta; OpenAI
+MBPP,3,Anthropic; Google DeepMind; Meta
+MGSM,3,Anthropic; Google DeepMind; Meta
+MMMU,3,Anthropic; Google DeepMind; Meta
+WinoGrande,3,Anthropic; Meta; OpenAI
+ARC-Challenge,2,Anthropic; Meta
+BBH,2,Anthropic; Meta
+BoolQ,2,Google DeepMind; Meta
+GPQA,2,Anthropic; Meta
+IFEval,2,Anthropic; Meta
+MMLU-Pro,2,Anthropic; Meta
+MathVista,2,Anthropic; Google DeepMind
+QuALITY,2,Anthropic; Meta
+AGIEval,1,Meta
+BFCL,1,Meta
+InfiniteBench,1,Meta
+Math-StackExchange,1,Google DeepMind
+Natural2Code,1,Google DeepMind
+Nexus,1,Meta
+TriviaQA,1,Meta
+TruthfulQA,1,OpenAI
+ZeroSCROLLS,1,Meta

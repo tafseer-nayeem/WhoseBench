@@ -1,0 +1,26 @@
+benchmark_name,country_alpha2,country_name,share_resolved_pct,average_share_pct
+DataComp1B,BD,Bangladesh,0.1862,0.3543
+WIT English,BD,Bangladesh,0.2214,0.3543
+RedCaps,BD,Bangladesh,1.1765,0.3543
+CC12M,BD,Bangladesh,0.0826,0.3543
+COYO-700M,BD,Bangladesh,0.1048,0.3543
+DataComp1B,CR,Costa Rica,0.3724,0.4082
+WIT English,CR,Costa Rica,0.1476,0.4082
+RedCaps,CR,Costa Rica,1.1765,0.4082
+CC12M,CR,Costa Rica,0.0826,0.4082
+COYO-700M,CR,Costa Rica,0.2621,0.4082
+DataComp1B,MA,Morocco,0.3724,0.4513
+WIT English,MA,Morocco,0.1230,0.4513
+RedCaps,MA,Morocco,1.1765,0.4513
+CC12M,MA,Morocco,0.1652,0.4513
+COYO-700M,MA,Morocco,0.4193,0.4513
+DataComp1B,DK,Denmark,0.3259,0.5501
+WIT English,DK,Denmark,0.8733,0.5501
+RedCaps,DK,Denmark,1.1765,0.5501
+CC12M,DK,Denmark,0.1652,0.5501
+COYO-700M,DK,Denmark,0.2096,0.5501
+DataComp1B,FI,Finland,0.3259,0.5546
+WIT English,FI,Finland,0.8733,0.5546
+RedCaps,FI,Finland,1.1765,0.5546
+CC12M,FI,Finland,0.0826,0.5546
+COYO-700M,FI,Finland,0.3145,0.5546

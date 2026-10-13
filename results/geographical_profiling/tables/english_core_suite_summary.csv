@@ -1,0 +1,7 @@
+dataset,display_name,benchmark_group,total_items,resolved_items,resolved_coverage_pct,western_share_resolved_pct,top_country,top_country_share_resolved_pct,top3_country_share_resolved_pct,top_region,top_region_share_resolved_pct
+conceptual_captions_20k,Conceptual Captions,paper_core,20000,303,1.5150,74.2574,Iceland,25.7426,50.4950,Europe,55.1155
+datacomp_1b_20k,DataComp1B,paper_core,20000,2148,10.7400,64.8510,United States,13.5475,26.7691,Europe,39.4320
+wit_english_50k,WIT English (merged),aux_control,21504,8130,37.8069,73.1857,United States,14.5879,34.5387,Europe,48.1427
+redcaps_20k,RedCaps,social_web,996,85,8.5341,76.4706,United States,21.1765,37.6471,Europe,35.2941
+cc12m_20k,CC12M,literature_expansion,20000,1211,6.0550,60.9414,Iceland,10.2395,27.9108,Europe,41.7836
+coyo_700m_20k,COYO-700M,literature_expansion,20000,1908,9.5400,66.8239,United States,16.2998,31.8658,Europe,38.1027

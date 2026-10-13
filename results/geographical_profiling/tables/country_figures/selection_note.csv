@@ -1,0 +1,6 @@
+metric,value
+benchmark_count,5
+benchmark_names,DataComp1B; WIT English; RedCaps; CC12M; COYO-700M
+bottom_selection_definition,bottom countries selected from the intersection of countries that appear in all five benchmarks
+bottom_selection_ranking,countries ranked by average share across the five benchmarks
+intersection_country_count,30

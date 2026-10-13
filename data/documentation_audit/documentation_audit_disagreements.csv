@@ -1,0 +1,2 @@
+resource,criterion,annotator1_score,annotator2_score,adjudication_note
+CC12M,Geographic metadata,1,2,"CC12M exposes image URLs in the official TSV format; because URL metadata is part of the rubric, the adjudicated score is 2."
