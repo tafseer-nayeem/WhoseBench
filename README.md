@@ -2,8 +2,6 @@
 
 **A user-centric framework for auditing evaluation resources**
 
-Mir Tafseer Nayeem and Davood Rafiei, University of Alberta
-
 [Project website](https://tafseer-nayeem.github.io/WhoseBench/) | [Code repository](https://github.com/tafseer-nayeem/WhoseBench)
 
 WhoseBench examines whose conventions, places, and intended users are represented in evaluation resources. The study audits **11 text benchmarks** and **five image-text resources** across seven dimensions. This repository contains the audit code, detector and country lexicons, documentation annotations, derived tables, and figures. It does **not** redistribute the original benchmark corpora or images.
@@ -16,10 +14,6 @@ WhoseBench examines whose conventions, places, and intended users are represente
 | Scoring sensitivity | On 12 eligible DROP answer pairs, exact match falls from 100.0% to 33.3% after meaning-preserving variants; token F1 falls to 77.2%. | [Paired scoring results](results/evaluation_sensitivity_broad/README.md) |
 | Geographic visibility | The US leads resolved textual country references in four of five image-text resources; Iceland leads CC12M. | [Geographic results](results/geographical_profiling/README.md) |
 | Documentation | All 16 resources operationalize source-user context; none operationalize target-user context. | [Documentation audit](data/documentation_audit/README.md) |
-
-![Convention profiles across 11 text benchmarks](docs/figures/conventions.webp)
-
-*Share among detected spelling, date, time, and unit signals, not the share of all benchmark items. From Figure 1 of the paper; [underlying CSV](results/convention/tables/convention_summary/convention_summary_match_share_by_type.csv).*
 
 ## Repository map
 
