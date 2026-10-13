@@ -1,80 +1,73 @@
 # Whose Data, Whose Benchmark?
 
-Anonymous research release
+**A user-centric framework for auditing evaluation resources**
 
-This is the anonymous release of the user-centric evaluation-resource audit.
-It includes the audit code, reusable resources, annotation records, derived
-results, and figures for the three analyses: convention signals in text
-benchmarks, geographic visibility in image-text resources, and documentation
-of user assumptions across both groups. It also includes the paired scoring
-sensitivity extension. The original benchmark corpora are not redistributed.
+Mir Tafseer Nayeem and Davood Rafiei, University of Alberta
 
-## Contents
+[Project website](https://tafseer-nayeem.github.io/WhoseBench/) | [Code repository](https://github.com/tafseer-nayeem/WhoseBench)
 
-- `data/audit_taxonomy.csv`: the seven audit dimensions and their scope.
-- `data/convention_detector_inventory/`: convention inventories and tests.
-- `data/country_resolver_lexicons/`: the country resolver's input lexicon.
-- `data/documentation_audit/`: rubric, evidence anchors, two annotator score sheets, adjudicated scores, agreement, and a reusable template.
-- `data/benchmark_sources/`: resource selection, source references, and download coverage records.
-- `scripts/`: acquisition, detection, country resolution, aggregation, statistical analysis, documentation agreement, and scoring checks.
-- `results/convention/`: text-audit tables and PDF figures.
-- `results/geographical_profiling/`: geographic and GDP-analysis tables and PDF figures.
-- `results/evaluation_sensitivity_broad/`: item-level paired scoring and summary tables, with DROP and TruthfulQA metrics kept separate.
-- `DATA_SOURCES.md`: provenance, licensing, and rerun boundaries.
+WhoseBench examines whose conventions, places, and intended users are represented in evaluation resources. The study audits **11 text benchmarks** and **five image-text resources** across seven dimensions. This repository contains the audit code, detector and country lexicons, documentation annotations, derived tables, and figures. It does **not** redistribute the original benchmark corpora or images.
 
-The six documentation fields in the scoring rubric are source-user context,
-target-user context, annotator visibility, locale assumptions, evaluation
-normalization, and geographic metadata. The nine-field template in
-data/documentation_audit/documentation_template.csv is a reporting aid for
-new evaluation resources; it is not a new score or an additional experiment.
+## Findings at a glance
 
-## Install
+| Analysis | Released finding | Explore |
+| --- | --- | --- |
+| Text conventions | American-centered forms make up 62.4% to 94.4% of *matched signals* across the 11 text benchmarks. | [Convention results](results/convention/README.md) |
+| Scoring sensitivity | On 12 eligible DROP answer pairs, exact match falls from 100.0% to 33.3% after meaning-preserving variants; token F1 falls to 77.2%. | [Paired scoring results](results/evaluation_sensitivity_broad/README.md) |
+| Geographic visibility | The US leads resolved textual country references in four of five image-text resources; Iceland leads CC12M. | [Geographic results](results/geographical_profiling/README.md) |
+| Documentation | All 16 resources operationalize source-user context; none operationalize target-user context. | [Documentation audit](data/documentation_audit/README.md) |
 
-Python 3.10 or newer:
+![Convention profiles across 11 text benchmarks](docs/figures/conventions.webp)
+
+*Share among detected spelling, date, time, and unit signals, not the share of all benchmark items. From Figure 1 of the paper; [underlying CSV](results/convention/tables/convention_summary/convention_summary_match_share_by_type.csv).*
+
+## Repository map
+
+| Path | Contents |
+| --- | --- |
+| [`data/audit_taxonomy.csv`](data/audit_taxonomy.csv) | Seven dimensions, questions, and operational signals. |
+| [`data/benchmark_sources/`](data/benchmark_sources/) | Resource selection, source references, and acquisition coverage. |
+| [`data/convention_detector_inventory/`](data/convention_detector_inventory/) | Convention inventories and tests. |
+| [`data/country_resolver_lexicons/`](data/country_resolver_lexicons/) | Released country lexicon used by the geographic audit. |
+| [`data/documentation_audit/`](data/documentation_audit/README.md) | Rubric, evidence anchors, two annotator sheets, adjudication, agreement, and reusable template. |
+| [`results/convention/`](results/convention/README.md) | Text-audit tables and PDF figures. |
+| [`results/geographical_profiling/`](results/geographical_profiling/README.md) | Country visibility and GDP-association tables and figures. |
+| [`results/evaluation_sensitivity_broad/`](results/evaluation_sensitivity_broad/README.md) | Item-level answer pairs and benchmark-specific scorer summaries. |
+| [`scripts/`](scripts/README.md) | Acquisition, detection, aggregation, agreement, scoring, and validation code. |
+| [`DATA_SOURCES.md`](DATA_SOURCES.md) | Provenance, licensing, and rerun boundaries. |
+
+## Quick start
+
+Python 3.10 or newer is required. The included-output validator uses only the standard library, so it can run before installing optional analysis dependencies:
+
+```bash
+python3 scripts/validate_outputs.py
+```
+
+For the analysis scripts:
 
 ```bash
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
 ```
 
-Check the included results:
-
-```bash
-.venv/bin/python scripts/validate_outputs.py
-```
-
-Recompute the documentation-audit agreement:
+Recompute documentation agreement from the released annotation sheets:
 
 ```bash
 .venv/bin/python scripts/documentation_audit/compute_documentation_audit_agreement.py \
-    --input-dir data/documentation_audit --output-dir /tmp/documentation_audit_check
+  --input-dir data/documentation_audit --output-dir /tmp/whosebench_agreement
 ```
 
-Recompute the answer-variant sensitivity analyses:
+Recompute the paired scoring analysis (downloads pinned upstream reference data):
 
 ```bash
 .venv/bin/python scripts/sensitivity/run_paired_official_scoring.py \
-    --output-dir /tmp/paired_scoring
+  --output-dir /tmp/whosebench_paired_scoring
 .venv/bin/python scripts/sensitivity/run_truthfulqa_generation_similarity.py \
-    --records /tmp/paired_scoring/truthfulqa_reference_diagnostic_records.csv \
-    --output-dir /tmp/truthfulqa_similarity
+  --records /tmp/whosebench_paired_scoring/truthfulqa_reference_diagnostic_records.csv \
+  --output-dir /tmp/whosebench_truthfulqa_similarity
 ```
 
-The paired scoring script retrieves the original DROP annotations and uses
-the bundled AllenNLP evaluator, whose license and source attribution are in
-scripts/sensitivity/third_party/. TruthfulQA reference data are loaded at a
-pinned revision. DROP exact match and F1 are separate metrics; the TruthfulQA
-generation-similarity comparison is a reference-side counterfactual, not a
-measured change in model accuracy. The item-level CSV files are under
-results/evaluation_sensitivity_broad/.
+The DROP script uses the bundled AllenNLP evaluator, with attribution and license in [`scripts/sensitivity/third_party/`](scripts/sensitivity/third_party/). DROP exact match and token F1 are different measures; the TruthfulQA similarity experiment is a **reference-side counterfactual**, not a measured change in model accuracy. Full convention and geographic reruns require acquiring the upstream corpora and rebuilding intermediate inputs. The local validator checks selected released values, not every upstream extraction step.
 
-Use the included lexicon to reproduce the released results. Rebuilding it
-with current Babel or GeoNames data can change entries; its optional builder
-requires --output-csv so it does not overwrite the included lexicon.
-Full convention and geographic reruns require acquiring the source corpora
-and recreating intermediate inputs. scripts/validate_outputs.py checks
-selected reported values, not every row or every upstream extraction step.
-
-The manuscript PDF is not included in this archive. Source URLs are retained
-for provenance. Standalone figure scripts and intermediate reports are not
-part of this package.
+Use the included country lexicon to reproduce released outputs; rebuilding it with newer Babel or GeoNames data can change entries. The optional builder requires `--output-csv` and will not overwrite the included lexicon by default. See [`DATA_SOURCES.md`](DATA_SOURCES.md) for source and licensing details.

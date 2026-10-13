@@ -17,7 +17,13 @@ def read_rows(rel_path: str) -> list[dict[str, str]]:
     if not path.exists():
         raise AssertionError(f"Missing expected file: {rel_path}")
     with path.open(newline="", encoding="utf-8") as handle:
-        return list(csv.DictReader(handle))
+        reader = csv.DictReader(handle)
+        if not reader.fieldnames or len(reader.fieldnames) != len(set(reader.fieldnames)):
+            raise AssertionError(f"Missing or duplicate CSV headers: {rel_path}")
+        rows = list(reader)
+    if not rows or any(None in row for row in rows):
+        raise AssertionError(f"Empty or malformed CSV: {rel_path}")
+    return rows
 
 
 def assert_close(actual: float, expected: float, tol: float = 1e-3, label: str = "value") -> None:
@@ -31,9 +37,13 @@ def check_documentation_audit() -> None:
         raise AssertionError(f"documentation summary should have 6 criteria, got {len(summary)}")
 
     by_id = {row["criterion_id"]: row for row in summary}
+    if len(by_id) != len(summary):
+        raise AssertionError("documentation summary has duplicate criteria")
     assert_close(float(by_id["source_user_context"]["mean_score"]), 2.00, label="source mean")
     assert_close(float(by_id["target_user_context"]["mean_score"]), 1.00, label="target mean")
     assert_close(float(by_id["geographic_metadata"]["mean_score"]), 0.69, tol=0.01, label="geo mean")
+    assert_close(float(by_id["source_user_context"]["score_2_pct"]), 100.0, label="source operationalized")
+    assert_close(float(by_id["target_user_context"]["score_2_pct"]), 0.0, label="target operationalized")
 
     agreement = read_rows("data/documentation_audit/documentation_audit_agreement_summary.csv")
     overall = next(row for row in agreement if row["criterion_id"] == "overall_micro")
@@ -64,8 +74,29 @@ def check_convention_outputs() -> None:
     mmlu = next(row for row in panel if row["label"] == "MMLU")
     assert_close(float(mmlu["Spelling total"]), 71.81, tol=0.01, label="MMLU spelling total")
 
+    shares = read_rows("results/convention/tables/convention_summary/convention_summary_match_share_by_type.csv")
+    coverage = read_rows("results/convention/tables/convention_summary/convention_summary_flagged_rate.csv")
+    if len(shares) != 11 or len(coverage) != 11:
+        raise AssertionError("convention summaries should each contain 11 benchmarks")
+    if {row["label"] for row in shares} != expected or {row["label"] for row in coverage} != expected:
+        raise AssertionError("convention summary benchmark labels do not match the released panel")
+    american_shares = [float(row["american_match_pct"]) for row in shares]
+    assert_close(min(american_shares), 62.41, tol=0.01, label="minimum American-centered match share")
+    assert_close(max(american_shares), 94.44, tol=0.01, label="maximum American-centered match share")
+
 
 def check_geo_outputs() -> None:
+    top_five = read_rows("results/geographical_profiling/tables/country_figures/top5_by_benchmark.csv")
+    leaders = {row["benchmark_name"]: row["country_name"] for row in top_five if row["rank"] == "1"}
+    if leaders != {
+        "DataComp1B": "United States",
+        "WIT English": "United States",
+        "RedCaps": "United States",
+        "CC12M": "Iceland",
+        "COYO-700M": "United States",
+    }:
+        raise AssertionError(f"unexpected geographic visibility leaders: {leaders}")
+
     settings = read_rows(
         "results/geographical_profiling/tables/gdp_representation_v2/"
         "gdp_representation_v2_setting_summary.csv"
