@@ -2,7 +2,7 @@
 
 **A user-centric framework for auditing evaluation resources**
 
-[Project website](https://tafseer-nayeem.github.io/WhoseBench/) | [Code repository](https://github.com/tafseer-nayeem/WhoseBench)
+[Paper](https://arxiv.org/abs/2610.19268) | [Project website](https://tafseer-nayeem.github.io/WhoseBench/) | [Code repository](https://github.com/tafseer-nayeem/WhoseBench)
 
 WhoseBench examines whose conventions, places, and intended users are represented in evaluation resources. The study audits **11 text benchmarks** and **five image-text resources** across seven dimensions. This repository contains the audit code, detector and country lexicons, documentation annotations, derived tables, and figures. It does **not** redistribute the original benchmark corpora or images.
 
